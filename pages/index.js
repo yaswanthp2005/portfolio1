@@ -211,6 +211,56 @@ export default function Home({ posts }) {
           <h2 className="pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
             Highlights
           </h2>
+          <div className="mb-8 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
+            <div className="flex items-center justify-between gap-4 border-b border-gray-200 px-4 py-3 dark:border-gray-700">
+              <div>
+                <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100">
+                  PixelCompute
+                </h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                  I got featured in this video.
+                </p>
+              </div>
+              <Link
+                href="https://www.linkedin.com/posts/pixelcomputelife-careers-interns-ugcPost-7500123720691408896-KlR3/"
+                className="shrink-0 text-sm font-medium text-primary-500 hover:underline"
+              >
+                Watch on LinkedIn
+              </Link>
+            </div>
+            <div className="linkedin-embed">
+              <div className="linkedin-embed-sizer" />
+              <iframe
+                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7500123720691408896"
+                title="PixelCompute intern video featuring Yaswanth"
+                allow="fullscreen"
+                allowFullScreen
+                loading="lazy"
+              />
+              <style jsx>{`
+                .linkedin-embed {
+                  container-type: inline-size;
+                  position: relative;
+                  width: 100%;
+                  overflow: hidden;
+                  background: #fff;
+                }
+                .linkedin-embed-sizer {
+                  height: calc(600px * 100cqw / 504px);
+                }
+                .linkedin-embed iframe {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 504px;
+                  height: 600px;
+                  border: 0;
+                  transform: scale(calc(100cqw / 504px));
+                  transform-origin: top left;
+                }
+              `}</style>
+            </div>
+          </div>
           <div className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-900">
             <div className="flex items-center justify-between border-b border-gray-200 px-4 py-3 dark:border-gray-700">
               <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100">
