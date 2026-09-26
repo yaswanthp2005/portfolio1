@@ -1,27 +1,41 @@
 const experienceData = [
   {
-    title: 'Technical Lead',
-    company: 'V-NEST Startup Incubator - VIT Chennai',
-    location: 'Chennai, India',
-    range: 'April 2025 – Present',
-    url: 'https://vnest.org', // Add a relevant link if needed
-    text1: 'Supported 30+ early-stage startups with product development and technical mentorship.',
+    title: 'Software Engineer Intern',
+    company: 'PixelCompute Technologies Pvt. Ltd.',
+    location: 'Bhubaneswar (On-site)',
+    range: 'May 2026 – Aug 2026',
+    text1: 'Tech Stack: Ruby, Ruby on Rails, JavaScript',
     text2:
-      'Collaborated with founders and cross-functional teams to build scalable MVPs and tech solutions.',
-    text3:
-      'Led tech reviews, sprint planning, and architecture decisions across multiple startup domains.',
+      'Learned Ruby on Rails from a JavaScript background and applied it to day-to-day engineering under code review.',
   },
   {
-    title: 'Web Developer Intern',
-    company: 'SpectoV',
-    location: 'Remote',
-    range: 'Jan 2025 – July 2025',
-    url: 'https://spectov.in/', // Add project or company link if available
-    text1:
-      'Built a dashboard used by 1000+ users to streamline onboarding and cross-team collaboration.',
+    title: 'Full Stack Engineer Intern',
+    company: 'GoRoots',
+    location: 'Bengaluru, Remote',
+    range: 'Mar 2026 – May 2026',
+    text1: 'Tech Stack: Next.js, React, REST APIs',
     text2:
-      'Led a team of 4 developers, overseeing code reviews, sprints, and implementation strategy.',
-    text3: 'Ensured performance, responsiveness, and clean API integration across the platform.',
+      'Built full-stack features and third-party API integrations for an AI-enabled appointment system used by wellness, salon, and fitness businesses.',
+  },
+  {
+    title: 'Technical Department Lead',
+    company: 'V-NEST Startup Incubator',
+    location: 'Chennai, On-site',
+    range: 'Apr 2025 – Mar 2026',
+    url: 'https://vnest.org',
+    text1: 'Tech Stack: Express.js, Python (Flask, Django), secure dashboards',
+    text2:
+      'Built a secure quarterly evaluation dashboard for investor presentations, isolating 30+ startup records with zero data breaches.',
+  },
+  {
+    title: 'Web Development Team Lead',
+    company: 'SpectoV',
+    location: 'Chennai, On-site',
+    range: 'Jan 2025 – Jul 2025',
+    url: 'https://spectov.in/',
+    text1: 'Tech Stack: React.js, REST APIs, JWT',
+    text2:
+      'Architected a full-stack training portal for 1000+ concurrent users and led a 4-person team on feature delivery and code quality.',
   },
 ]
 
